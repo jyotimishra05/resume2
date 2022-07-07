@@ -6,4 +6,198 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Write CSS code below */
+@media screen and (max-width: 673px) {
+    .main-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+body{
+    background-color:whitesmoke;
+}
+.main-content{
+    min-height: 1000px ;
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns:300px 700px;
+   
+}
+.left-section{
+    grid-column: span 1;
+    height: 100%;
+    background-color:rgb(19, 21, 24);
+    
+}
+.right-main-content {
+    padding: 2rem 3rem;
+}
+
+.right-section{
+    grid-column: span 1/ span 2;
+    background-color:lightblue;
+    height: 100%;
+    text-align: justify;
+}
+.left-content{
+   
+    color: #f5f5f5;
+    padding: 1rem;
+
+}
+.profile-image{
+    margin: auto;
+    display:block;
+    border: 5px;
+    border-radius: 30%;
+    width: 60%;
+    box-shadow: 0 0 10px 3px white;
+   
+    
+}
+.name{
+    font-size: 1.2 rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 0.02px;
+    padding: 0.8rem;
+    padding-top: 1.5rem;
+}
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+
+}
+.description{
+    font-size: 0.75 rem;
+    text-align: center;
+    padding: 1rem;
+    text-transform: uppercase;
+
+}
+.social-media{
+    padding-bottom: 2rem;
+    display: flex;
+   
+    
+}
+.social-media .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 25%;
+  }
+.fa-linkedin {
+    background: #0085b5;
+    color: white;
+  }
+  .linked{
+    padding-right: 1.5rem;
+  }
+.fa-github{
+    background-color: rgb(122, 13, 224);
+    color: aliceblue;
+}
+
+
+
+.contact-items{
+    list-style: none;
+    
+
+}
+
+  
+  
+  
+
+.progress-bar{
+    border: 1px white solid;
+    height: 4px;
+    width: 250px;
+    border-radius: 4px;
+    background-color:aliceblue;
+    border-style: none;
+    padding-bottom: 1rem;
+    overflow: hidden;
+    position: relative;
+    
+    
+    
+}
+.container1{
+    width: 90%;
+    background-color:blue;
+    height: 100%;
+    padding-bottom: 1rem;
+}
+.container2{
+    width: 60%;
+    background-color:blue;
+    height: 100%;
+    padding-bottom: 1rem;
+}
+.container3{
+    width: 70%;
+    background-color:blue;
+    height: 100%;
+    padding-bottom: 1rem;
+}
+.container4{
+    width: 50%;
+    background-color:blue;
+    height: 100%;
+    padding-bottom: 1rem;
+}
+
+.skills{
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem .5rem;
+
+}
+.skill-name {
+    font-size: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+}
+
+.rightcon{
+    display: flex;
+   
+}
+.secondary{
+    font-size: medium;
+    font-style:initial;
+    padding-left: 0.5rem;
+}
+.exp{
+    padding-right: 2rem;
+    text-align: justify;
+    padding-left: 0.5rem;
+    margin-top: 0rem;
+}
+.aboutme{
+    padding-right: 2rem;
+    text-align: justify;
+    padding-left: 0.5rem;
+    margin-top: 0rem;
+}
+.school{
+    padding-right: 1.5rem;
+    padding-left: 1rem;
+}
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
