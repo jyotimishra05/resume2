@@ -116,28 +116,14 @@ body{
     background-color: aliceblue;
     border-radius: 6px;
 }
-  
-  
-  
-
 .progress-bar{
  
         border: 1px white solid;
         height: 4px;
-    
-    
-    width: 250px;
-    border-radius: 6px;
-    background-color:aliceblue;
-    border-style: none;
-    padding-bottom: 1rem;
-    overflow: hidden;
-    position: relative;
-    
-    
+        border-radius: 6px;
+        padding-bottom: 1rem;
     
 }
-
 
 .skills{
     font-size: 0.75rem;
